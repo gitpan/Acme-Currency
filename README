@@ -1,4 +1,4 @@
-Acme::Currency version 0.01
+Acme::Currency version 1.00
 ===========================
 
 Why confine yourself to using the American Dollar as scalar-context
@@ -15,6 +15,20 @@ By default, using Acme::Currency will use the € character as the scalar sigil.
 INSTALLATION
 
 To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+On platforms that don't support the "./" notation, that would be:
+
+   perl Build.PL
+   perl Build
+   perl Build test
+   perl Build install
+
+If you wish, you may use the old MakeMaker style instead:
 
    perl Makefile.PL
    make
@@ -33,6 +47,6 @@ COPYRIGHT AND LICENCE
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
 
-Copyright 2003 by Steffen Mueller.
+Copyright 2003-2005 by Steffen Mueller.
 
 Author can be reached at currency-module at steffen-mueller dot net.
