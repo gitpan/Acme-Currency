@@ -1,6 +1,9 @@
 Revision history for Perl extension Acme::Currency.
 
-1.00  Thu Oct 06 21:00:22 2005
+2.00  Tue Mar 29 23:00 2011
+	- Remove useless signature.
+
+1.00  Thu Oct 06 21:00 2005
 	- Distribution upgrade.
 	- Now using Module::Build.
 	- Now using t/ test infrastructure.
